@@ -1,0 +1,51 @@
+WotanPAR Simulation V 1.0d.001
+------------------------------
+
+... Frame auf Kanal schreiben ...
+/dev/rab0(WPAR): Anfang
+/dev/rab0(WPAR) Judihui es haet Zeichae fuer mich
+wCount: 2
+CRC32-Code (41d912ff)
+----------
+LoLo: 255
+HiLo: 18
+LoHi: 217
+HiHi: 65
+/dev/rab0(WPAR): Zeichen:  20 0 0 2 0 80 a7 41 42 ff 12 d9 41
+... Frame von Kanal lesen ...
+/dev/rab0-WPAR_SOH: Suche nach SOH (1)
+/dev/rab0-WPAR_SOH: SOH gefunden.
+/dev/rab0-WPAR_HEADER: lese Header (20).
+/dev/rab0-WPAR_HEADER: lese Header (0).
+/dev/rab0-WPAR_HEADER: lese Header (0).
+/dev/rab0-WPAR_HEADER: lese Header (2).
+/dev/rab0-WPAR_HEADER: lese Header (0).
+/dev/rab0-WPAR_HEADER: lese Header (80).
+/dev/rab0-WPAR_HEADER: lese Header (a7).
+/dev/rab0-WPAR_HEADER: Header eines Frames korrekt angekommen.
+/dev/rab0-WPAR_TEXT: Text lesen (41)
+wReadTextCount: 0
+/dev/rab0-WPAR_TEXT: Text lesen (42)
+wReadTextCount: 1
+/dev/rab0-WPAR_TEXT: Text lesen (ff)
+wReadTextCount: 2
+Sonderzeichen gefunden
+/dev/rab0-WPAR_TEXT: Text lesen (ff)
+wReadTextCount: 2
+/dev/rab0-WPAR_TEXT: Text lesen (12)
+wReadTextCount: 3
+/dev/rab0-WPAR_TEXT: Text lesen (d9)
+wReadTextCount: 4
+/dev/rab0-WPAR_TEXT: Text lesen (41)
+wReadTextCount: 5
+CRC32-Code (41d912ff)
+----------
+LoLo: 255
+HiLo: 18
+LoHi: 217
+HiHi: 65
+Frame pr"ufen
+Berechneter CRC32: 30694c07
+wReadFrameSize: 2
+/dev/rab0-WPAR_TEXT: Frame mit falschem CRC32 angekommen.
+Empfangener Text: 

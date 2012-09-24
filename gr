@@ -1,0 +1,2 @@
+#!/bin/sh
+gcc -D__KERNEL__ -I/usr/mount/hda3/usr/src/linux-2.0.0/include -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -fno-strength-reduce -pipe -m486 -DCPU=486  -c -o $1.o $1.c

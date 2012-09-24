@@ -1,0 +1,5 @@
+#
+# IP configuration
+#
+bool 'Rabbit Network' CONFIG_RABBIT
+y
